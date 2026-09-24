@@ -1,4 +1,4 @@
-# Version 1.0
+# Version 1.0.1
 # Password Generator
 
 import random
@@ -21,28 +21,27 @@ symbols = [
     "{", "|", "}", "~"
 ]
 
-passLenth = int(input("Password lenght: "))
+passLenth = int(input("Password length: "))
 
 passwordArray = []
 
-for i in range(50):
-    for i in range(passLenth):
+for i in range(passLenth):
 
-        varType = random.randint(1, 3)
+    varType = random.randint(1, 3)
 
-        if varType == 1:
-            charArr = characters.__len__
-            slctChar = random.randint(0, len(characters)-1)
-            passwordArray.append(characters[slctChar])
-        
-        elif varType == 2:
-            slctNum = random.randint(0, len(numbers)-1)
-            passwordArray.append(numbers[slctNum])
+    if varType == 1:
+        charArr = characters.__len__
+        slctChar = random.randint(0, len(characters)-1)
+        passwordArray.append(characters[slctChar])
+    
+    elif varType == 2:
+        slctNum = random.randint(0, len(numbers)-1)
+        passwordArray.append(numbers[slctNum])
 
-        elif varType == 3:
-            slctSym = random.randint(0, len(symbols)-1)
-            passwordArray.append(symbols[slctSym])
+    elif varType == 3:
+        slctSym = random.randint(0, len(symbols)-1)
+        passwordArray.append(symbols[slctSym])
 
-    password = "".join(passwordArray)
-    print(password)
-    passwordArray = []
+password = "".join(passwordArray)
+print("Password:", password)
+passwordArray = []
