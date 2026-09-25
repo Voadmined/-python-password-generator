@@ -12,7 +12,7 @@ A lightweight version using only Python's standard library.
 - Simple terminal interface
 - Uses Python's `random` module
 
-[Go to Standard Edition](Standard/)
+[Go to Standard Edition](https://github.com/Voadmined/PyLock-Password-Generator/tree/main/PyLock%20Standard%20Edition)
 
 ### Special Edition
 
@@ -23,7 +23,7 @@ An enhanced version with an interactive terminal interface using Questionary.
 - Character type selection
 - Uses Questionary for the terminal interface
 
-[Go to Special Edition](Special-Edition/)
+[Go to Special Edition](https://github.com/Voadmined/PyLock-Password-Generator/tree/main/PyLock%20Special%20Edition)
 
 ## Requirements
 
@@ -41,4 +41,4 @@ An enhanced version with an interactive terminal interface using Questionary.
 
 © 2026 Voadmined
 
-See [`LICENSE`](LICENSE) for the full license terms.
+See [`LICENSE`]([LICENSE](https://github.com/Voadmined/PyLock-Password-Generator/blob/main/LICENSE)) for the full license terms.
